@@ -26,4 +26,12 @@ public class Circulos {
 	{
 		return this.perimetro;
 	}
+		public void CalcularSuperficie()
+	{
+		this.superficie=this.pi*(this.radio*this.radio);
+	}
+	public Double VerSuperficie()
+	{
+		return this.superficie;
+	}
 }
