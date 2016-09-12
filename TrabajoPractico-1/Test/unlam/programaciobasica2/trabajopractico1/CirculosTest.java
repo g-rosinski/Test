@@ -11,13 +11,13 @@ public class CirculosTest {
 	//Circulo con radio 2
 	public void PruebaDeCreacionDeCirculoConRadio2 ()
 	{
-		Circulos circ1 = new Circulos();
+		Circulos circ2 = new Circulos();
 		
 		Double ValorEsperado=12.56;
 		Double ValorActual;
-		circ1.setRadio(2.00);
-		circ1.CalcularPerimetro();
-		ValorActual=circ1.VerPerimetro();
+		circ2.setRadio(2.00);
+		circ2.CalcularPerimetro();
+		ValorActual=circ2.VerPerimetro();
 		
 		Assert.assertEquals(ValorEsperado.doubleValue(),ValorActual.doubleValue(), 2);
 	}
@@ -25,13 +25,13 @@ public class CirculosTest {
 	//Circulo con radio 3.7
 	public void PruebaDeCreacionDeCirculoConRadio3 ()
 	{
-		Circulos circ1 = new Circulos();
+		Circulos circ3 = new Circulos();
 		
 		Double ValorEsperado=23.23;
 		Double ValorActual;
-		circ1.setRadio(3.70);
-		circ1.CalcularPerimetro();
-		ValorActual=circ1.VerPerimetro();
+		circ3.setRadio(3.70);
+		circ3.CalcularPerimetro();
+		ValorActual=circ3.VerPerimetro();
 		
 		Assert.assertEquals(ValorEsperado.doubleValue(),ValorActual.doubleValue(), 2);
 	}
@@ -39,13 +39,13 @@ public class CirculosTest {
 	//Circulo con radio 5
 	public void PruebaDeCreacionDeCirculoConRadio5 ()
 	{
-		Circulos circ1 = new Circulos();
+		Circulos circ5 = new Circulos();
 		
 		Double ValorEsperado=31.40;
 		Double ValorActual;
-		circ1.setRadio(5.00);
-		circ1.CalcularPerimetro();
-		ValorActual=circ1.VerPerimetro();
+		circ5.setRadio(5.00);
+		circ5.CalcularPerimetro();
+		ValorActual=circ5.VerPerimetro();
 		
 		Assert.assertEquals(ValorEsperado.doubleValue(),ValorActual.doubleValue(), 2);
 	}
@@ -53,13 +53,13 @@ public class CirculosTest {
 	//Circulo con radio 10.90
 	public void PruebaDeCreacionDeCirculoConRadio10 ()
 	{
-		Circulos circ1 = new Circulos();
+		Circulos circ10 = new Circulos();
 		
 		Double ValorEsperado=68.45;
 		Double ValorActual;
-		circ1.setRadio(10.90);
-		circ1.CalcularPerimetro();
-		ValorActual=circ1.VerPerimetro();
+		circ10.setRadio(10.90);
+		circ10.CalcularPerimetro();
+		ValorActual=circ10.VerPerimetro();
 		
 		Assert.assertEquals(ValorEsperado.doubleValue(),ValorActual.doubleValue(), 2);
 	}
@@ -67,13 +67,13 @@ public class CirculosTest {
 	@Test
 	public void PruebaDeCreacionDeCirculoConRadio9 ()
 	{
-		Circulos circ1 = new Circulos();
+		Circulos circ9 = new Circulos();
 		
 		Double ValorEsperado=615.73;
 		Double ValorActual;
-		circ1.setRadio(9.80);
-		circ1.CalcularPerimetro();
-		ValorActual=circ1.VerPerimetro();
+		circ9.setRadio(9.80);
+		circ9.CalcularSuperficie();
+		ValorActual=circ9.VerSuperficie();
 		
 		Assert.assertEquals(ValorEsperado.doubleValue(),ValorActual.doubleValue(), 2);
 	}
@@ -81,13 +81,13 @@ public class CirculosTest {
 	@Test
 	public void PruebaDeCreacionDeCirculoConRadio16 ()
 	{
-		Circulos circ1 = new Circulos();
+		Circulos circ16 = new Circulos();
 		
 		Double ValorEsperado=865.67;
 		Double ValorActual;
-		circ1.setRadio(16.60);
-		circ1.CalcularPerimetro();
-		ValorActual=circ1.VerPerimetro();
+		circ16.setRadio(16.60);
+		circ16.CalcularSuperficie();
+		ValorActual=circ16.VerSuperficie();
 		
 		Assert.assertEquals(ValorEsperado.doubleValue(),ValorActual.doubleValue(), 2);
 	}
